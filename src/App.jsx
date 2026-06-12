@@ -475,7 +475,7 @@ export default function App() {
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '14px' }}>
               {[
                 { step: '01', icon: '📦', title: 'Details Daalo', desc: 'Naam, category, aur 3 features — bas itna kaafi hai' },
-                { step: '02', icon: '🤖', title: 'AI Generate Karta Hai', desc: 'Gemini AI 5 second mein 4 platforms ke liye listing banata hai' },
+                { step: '02', icon: '🤖', title: 'AI Generate Karta Hai', desc: 'AI 5 second mein 4 platforms ke liye listing banata hai' },
                 { step: '03', icon: '📋', title: 'Copy & Paste Karo', desc: 'Platform choose karo, copy karo, listing post karo' },
               ].map(s => (
                 <GlassCard key={s.step} style={{ padding: '26px 20px', textAlign: 'left' }}>
